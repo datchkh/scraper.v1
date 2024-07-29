@@ -23,7 +23,7 @@ time.sleep(5)
 latest_video_views_amount = page.find_element(By.XPATH, "/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/a/div/div[2]/strong").text
 page.find_element(By.XPATH, "/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/a/div/div[2]").click()
 latest_video_likes_amount = page.find_element(By.XPATH, "/html/body/div[1]/div[2]/div[4]/div/div[2]/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/button[1]/strong").text
-latest_video_comments_amount = page.find_element(By.NAME, "browse-comment-count")
+#latest_video_comments_amount = page.find_element(By.NAME, "browse-comment-count")
 
 print(f"Username: {username}")
 print(f"Name: {name}")
